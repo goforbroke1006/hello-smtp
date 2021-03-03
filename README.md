@@ -2,6 +2,8 @@
 
 Detailed acquaintance with the SMTP protocol.
 
+[Wiki sample](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol#SMTP_transport_example)
+
 ### How to use?
 
 1. Run local SMTP server.
