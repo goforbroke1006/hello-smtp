@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mail-server:
+    image: bytemark/smtp:stretch
+    restart: always
+    ports:
+      - "10025:25"
+      - "10587:587"
+    environment:
+      RELAY_HOST: smtp.example.com
+      RELAY_PORT: 587
+      RELAY_USERNAME: admin@example.com
+      RELAY_PASSWORD: secret
